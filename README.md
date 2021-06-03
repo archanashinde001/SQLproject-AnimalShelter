@@ -18,14 +18,14 @@ The rationale behind this ER diagram can be explained with the help of eight ent
 
 More details from ER diagram like the columns, data types, constraints, and other remarks (auto increment, default values, purpose) for every entity is captured in the table_structure.docx
 
-2. Normalization
+2. Normalization:
 In the document normalization.doc, we will see if our eight entities are in BCNF normalization form and will apply the step-by-step approach of normalization to achieve a coherently organized relational database system.
 The aim of doing the BCNF normalization process on all eight entities was to eliminate redundant data and ensure data dependencies make sense. Both of these are worthy goals, as they reduce the amount of space a database consumes and ensure that data is logically stored
 
-3. DDL SQL queries
+3. DDL SQL queries:
 SQL_DDL consists of SQL queries to create all the tables along with sample insert queries.
 
-4. Scenario Based SQL queries
+4. Scenario Based SQL queries:
 SQL_Queries consists of some sample scenario-based queries which help to understand the functioning of our database.
 It consists of six scenarios:
 •	Scenario 1: A normal user would like to see a list of Animals who are not yet adopted and their contact details. This will help the user get a basic idea about all available animals and how to contact them.
